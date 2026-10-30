@@ -254,3 +254,11 @@ cloud deployment — everything is environment-variable driven.
   against its **rule-based fallback only** (no API key was available
   during development) — the live-Gemini code path has not been exercised
   against the actual Gemini API.
+
+## Trained BART Model Download
+
+The trained BART model weights are hosted separately on Google Drive.
+
+**Download:** https://drive.google.com/file/d/1HbBpEFnjlYGXVPILyP3bFj6zDtpKwzfi/view?usp=drive_link
+
+The ZIP contains trained model weights, configuration, tokenizer files, and training information.
