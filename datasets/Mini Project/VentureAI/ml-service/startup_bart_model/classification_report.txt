@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+  Not Viable       0.73      0.82      0.77      5594
+      Viable       0.74      0.62      0.68      4499
+
+    accuracy                           0.73     10093
+   macro avg       0.73      0.72      0.72     10093
+weighted avg       0.73      0.73      0.73     10093

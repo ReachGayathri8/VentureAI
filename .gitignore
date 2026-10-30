@@ -1,0 +1,31 @@
+# Python cache
+**/__pycache__/
+*.py[cod]
+
+# Trained model weights
+*.safetensors
+*.pt
+*.pth
+
+# BART backup and previous checkpoints
+datasets/Mini Project/VentureAI/ml-service/startup_bart_model_backup/
+datasets/Mini Project/VentureAI/ml-service/startup_bart_model_previous/
+
+# Training checkpoints
+**/checkpoint-*/
+
+# Build files and dependencies
+**/target/
+**/dist/
+**/node_modules/
+**/venv/
+**/.venv/
+
+# Unrelated downloaded files
+.github/
+
+# Backup files
+*.backup
+
+# Generated validation reports
+datasets/Mini Project/VentureAI/backend/reports/

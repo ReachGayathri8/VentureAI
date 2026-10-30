@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+scikit-learn==1.5.2
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+nltk==3.9.1
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# --- Added for BART startup-viability model (train_bart.py + model/bart_predictor.py) ---
+# Versions pinned to match what is already installed/working in this
+# project's own venv/ (verified via the uploaded ml-service.zip).
+torch==2.14.0
+transformers==5.16.1
+datasets==5.0.1
+accelerate==1.14.0
